@@ -2,32 +2,44 @@
 	"w-text/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/strong": {
 		"description": "是否加粗",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/underline": {
 		"description": "是否添加下划线样式",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/mark": {
 		"description": "是否添加标记样式",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/code": {
 		"description": "是否添加代码样式",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/delete": {
 		"description": "是否添加删除线样式",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/type": {
 		"description": "文本类型",
@@ -39,11 +51,15 @@
       "success"
     ],
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-text/markStyle": {
 		"description": "设置标记样式",
 		"optionType": "String | Object",
-		"defaultValue": "background-color: #ffe58f"
+		"defaultValue": "background-color: #ffe58f",
+		"version": "0.20.0",
+		"require": "false"
 	}
 }

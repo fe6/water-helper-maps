@@ -2,46 +2,64 @@
 	"w-radio-group/value": {
 		"description": "绑定值",
 		"optionType": "String | Number | Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/className": {
 		"description": "组件最外层的 class 名字",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/hoverColor": {
 		"description": "鼠标移入的颜色",
 		"optionType": "String",
-		"defaultValue": "#34abfe"
+		"defaultValue": "#34abfe",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/checkColor": {
 		"description": "选中的颜色",
 		"optionType": "String",
-		"defaultValue": "#1890ff"
+		"defaultValue": "#1890ff",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/fieldNames": {
 		"description": "自定义 radio 属性的字段名",
 		"optionType": "Object",
-		"defaultValue": "{ value: 'value', label: 'label', key: 'key', loading: 'loading', disabled: 'disabled' }"
+		"defaultValue": "{ value: 'value', label: 'label', key: 'key', loading: 'loading', disabled: 'disabled' }",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/options": {
 		"description": "指定可选项， 每项具体设置参照 fieldNames 参数",
 		"optionType": "Array",
-		"defaultValue": "() => []"
+		"defaultValue": "() => []",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/before": {
 		"description": "输入之前触发的方法，参数 {Event对象,选中的label,选中的值}({ev,label,value})，返回 Promise 对象",
 		"optionType": "Function",
-		"defaultValue": "function({ev,label,value}) {return new Promise((resolve, reject) => {resolve();});}"
+		"defaultValue": "function({ev,label,value}) {return new Promise((resolve, reject) => {resolve();});}",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-radio-group/change": {
 		"description": "输入时触发的方法，返回 {Event对象,选中的label,选中的值,当前状态}({ev,label,value,status})",
 		"optionType": "Function",
-		"defaultValue": "({ev,label,value,status}) => {}"
+		"defaultValue": "({ev,label,value,status}) => {}",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

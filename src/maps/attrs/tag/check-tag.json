@@ -2,22 +2,30 @@
 	"w-check-tag/value": {
 		"description": "绑定值",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-check-tag/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-check-tag/loading": {
 		"description": "设置载入状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-check-tag/inline": {
 		"description": "是否有 inline-block ，属性排长一行",
 		"optionType": "Boolean",
-		"defaultValue": "true"
+		"defaultValue": "true",
+		"version": "0.12.0",
+		"require": "false"
   },
 	"w-check-tag/size": {
 		"description": "设置大小",
@@ -27,6 +35,8 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	}
 }

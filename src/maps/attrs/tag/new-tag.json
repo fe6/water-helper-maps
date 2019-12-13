@@ -2,22 +2,30 @@
 	"w-new-tag/value": {
 		"description": "新标签的文案",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/loading": {
 		"description": "设置载入状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/stop": {
 		"description": "点击事件是否冒泡",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
   },
 	"w-new-tag/size": {
 		"description": "设置大小",
@@ -27,7 +35,9 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/placeholder": {
 		"description": "输入框占位文本",
@@ -37,16 +47,22 @@
 	"w-new-tag/error": {
 		"description": "输入框报错的方法，当返回为 true 的时候，输入框为错误状态",
 		"optionType": "Function",
-		"defaultValue": "() => false"
+		"defaultValue": "() => false",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/before": {
 		"description": "改变之前触发，返回 Promise 对象",
 		"optionType": "Function",
-		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}"
+		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-new-tag/change": {
 		"description": "改变触发，返回 {当前值}({ value })",
 		"optionType": "Function",
-		"defaultValue": "({ value }) => {}"
+		"defaultValue": "({ value }) => {}",
+		"version": "0.12.0",
+		"require": "false"
 	}
 }

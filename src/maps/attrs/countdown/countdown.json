@@ -2,26 +2,36 @@
 	"w-countdown/value": {
 		"description": "倒计时中的值",
 		"optionType": "String | Moment | Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-countdown/valueStyle": {
 		"description": "值的样式",
 		"optionType": "String | Object",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-countdown/title": {
 		"description": "标题",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-countdown/format": {
 		"description": "时间格式",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-countdown/finish": {
 		"description": "完成的回调",
 		"optionType": "Function",
-		"defaultValue": "() => {}"
+		"defaultValue": "() => {}",
+		"version": "0.20.0",
+		"require": "false"
 	}
 }

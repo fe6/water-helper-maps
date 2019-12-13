@@ -2,31 +2,43 @@
 	"w-statistic/value": {
 		"description": "绑定值",
 		"optionType": "String | Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-statistic/precision": {
 		"description": "数值精度",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-statistic/title": {
 		"description": "标题",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-statistic/groupSeparator": {
 		"description": "设置千分位标识符",
 		"optionType": "String",
-		"defaultValue": ","
+		"defaultValue": ",",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-statistic/valueStyle": {
 		"description": "设置数值的样式",
 		"optionType": "String | Object",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	},
 	"w-statistic/valueRender": {
 		"description": "自定义绑定值显示",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.20.0",
+		"require": "false"
 	}
 }

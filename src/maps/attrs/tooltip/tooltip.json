@@ -2,22 +2,30 @@
 	"w-tooltip/transfer": {
 		"description": "是否转移到 body 下",
 		"optionType": "Boolean",
-		"defaultValue": "true"
+		"defaultValue": "true",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/enterDelay": {
 		"description": "鼠标移入后延时多少才显示 Tooltip ，单位：毫秒",
 		"optionType": "Number",
-		"defaultValue": "0"
+		"defaultValue": "0",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/leaveDelay": {
 		"description": "鼠标移出后延时多少才隐藏 Tooltip ，单位：毫秒",
 		"optionType": "Number",
-		"defaultValue": "100"
+		"defaultValue": "100",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/interval": {
 		"description": "下拉框间距，单位 px",
 		"optionType": "Number",
-		"defaultValue": "4"
+		"defaultValue": "4",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/placement": {
 		"description": "气泡框位置",
@@ -36,7 +44,9 @@
       "rightBottom"
     ],
 		"optionType": "String",
-		"defaultValue": "top"
+		"defaultValue": "top",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/trigger": {
 		"description": "触发行为",
@@ -45,7 +55,9 @@
       "click"
     ],
 		"optionType": "String",
-		"defaultValue": "hover"
+		"defaultValue": "hover",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/content": {
 		"description": "内容",
@@ -60,21 +72,29 @@
 	"w-tooltip/contentStyle": {
 		"description": "内容的样式",
 		"optionType": "Object",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/className": {
 		"description": "组件最外层的 class 名字",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/getContainer": {
 		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.8.0",
+		"require": "false"
 	},
 	"w-tooltip/change": {
 		"description": "改变触发，返回 状态 ( status )",
 		"optionType": "Function",
-		"defaultValue": "(status) => {}"
+		"defaultValue": "(status) => {}",
+		"version": "0.8.0",
+		"require": "false"
 	}
 }

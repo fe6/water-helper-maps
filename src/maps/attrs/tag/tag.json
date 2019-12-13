@@ -2,27 +2,37 @@
 	"w-tag/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/loading": {
 		"description": "设置载入状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/stop": {
 		"description": "点击事件是否冒泡",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
   },
   "w-tag/inline": {
 		"description": "是否有 inline-block ，属性排长一行",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
   "w-tag/closable": {
 		"description": "标签是否可以关闭",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/size": {
 		"description": "设置大小",
@@ -32,12 +42,16 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/color": {
 		"description": "标签色",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/colorType": {
 		"description": "标签颜色的渲染类型",
@@ -46,11 +60,15 @@
       "section"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.12.0",
+		"require": "false"
 	},
 	"w-tag/close": {
 		"description": "关闭触发的方法，返回 {Event对象}({ev})",
 		"optionType": "String",
-		"defaultValue": "({ev}) => {}"
+		"defaultValue": "({ev}) => {}",
+		"version": "0.12.0",
+		"require": "false"
 	}
 }

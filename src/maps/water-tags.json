@@ -1,197 +1,197 @@
 { 
   "w-affix": {
     "attributes": [],
-    "description": "使元素坚持视口。"
+    "description": "使元素坚持视口。 0.0.1 新增。"
   },
   "w-badge": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "UI元素的小数值或状态描述符。"
+    "description": "UI元素的小数值或状态描述符。 0.0.1 新增。"
   },
   "w-breadcrumb": {
     "subtags": ["w-breadcrumb-item"],
-    "description": "面包屑显示层次结构中的当前位置。 它允许返回到层次结构中较高的状态。"
+    "description": "面包屑显示层次结构中的当前位置。 它允许返回到层次结构中较高的状态。 0.0.1 新增。"
   },
   "w-breadcrumb-item": {
     "attributes": [],
-    "description": "面包屑元素。"
+    "description": "面包屑元素。 0.0.1 新增。"
   },
   "w-button": {
     "attributes": [],
-    "description": "按钮。"
+    "description": "按钮。 0.0.1 新增。"
   },
   "w-button-group": {
     "defaults": ["v-model"],
     "attributes": [],
     "subtags": ["w-button"],
-    "description": "按钮组。"
+    "description": "按钮组。 0.0.1 新增。"
   },
   "w-calendar": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "用于以日历形式显示数据的容器。"
+    "description": "用于以日历形式显示数据的容器。 0.19.0 新增。"
   },
   "w-cascader": {
     "defaults": ["v-model", "options"],
     "attributes": [],
-    "description": "级联选择框。"
+    "description": "级联选择框。 0.7.0 新增。"
   },
   "w-check-tag": {
     "attributes": [],
-    "description": "高亮功能的标签。"
+    "description": "高亮功能的标签。 0.12.0 新增。"
   },
   "w-checkbox": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "多选"
+    "description": "多选。 0.0.1 新增。"
   },
   "w-checkbox-group": {
     "defaults": ["v-model"],
     "attributes": [],
     "subtags": ["w-checkbox"],
-    "description": "多选组"
+    "description": "多选组。 0.0.1 新增。"
   },
   "w-col": {
     "defaults": [":span"],
     "attributes": [],
-    "description": "网格系统中的一列。"
+    "description": "网格系统中的一列。 0.0.1 新增。"
   },
   "w-countdown": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "倒计时。"
+    "description": "倒计时。 0.20.0 新增。"
   },
   "w-datepicker": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "选择或输入日期。"
+    "description": "选择或输入日期。 0.17.0 新增。"
   },
   "w-empty": {
     "attributes": [],
-    "description": "空状态。"
+    "description": "空状态。 0.0.1 新增。"
   },
   "w-icon": {
     "attributes": [],
-    "description": "语义矢量图形。"
+    "description": "语义矢量图形。 0.0.1 新增。"
   },
   "w-input": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "用于获取用户输入的基本小部件是文本字段。"
+    "description": "用于获取用户输入的基本小部件是文本字段。 0.0.1 新增。"
   },
   "w-input-number": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "用鼠标或键盘输入一定范围内的数字。"
+    "description": "用鼠标或键盘输入一定范围内的数字。 0.6.0 新增。"
   },
   "w-link": {
     "attributes": [],
-    "description": "链接"
+    "description": "链接。 0.0.1 新增。"
   },
   "w-modal": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "对话框。"
+    "description": "对话框。 0.2.0 新增。"
   },
   "w-new-tag": {
     "attributes": [],
-    "description": "新建标签。"
+    "description": "新建标签。 0.12.0 新增。"
   },
   "w-page": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "翻页。"
+    "description": "翻页。 0.11.0 新增。"
   },
   "w-page-jump": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "翻页跳转。"
+    "description": "翻页跳转。 0.12.0 新增。"
   },
   "w-popconfirm": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "一个简单而紧凑的动作确认对话框。"
+    "description": "一个简单而紧凑的动作确认对话框。 0.9.0 新增。"
   },
   "w-popover": {
     "attributes": [],
-    "description": "通过单击或悬停弹出卡。"
+    "description": "通过单击或悬停弹出卡。 0.10.0 新增。"
   },
   "w-progress": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "显示操作流程的当前进度。"
+    "description": "显示操作流程的当前进度。 0.17.0 新增。"
   },
   "w-radio": {
     "defaults": ["v-model", "label"],
     "attributes": [],
-    "description": "单选。"
+    "description": "单选。 0.0.1 新增。"
   },
   "w-radio-group": {
     "defaults": ["v-model"],
     "attributes": [],
     "subtags": ["w-radio"],
-    "description": "单选组。"
+    "description": "单选组。 0.0.1 新增。"
   },
   "w-row": {
     "attributes": [],
     "subtags": ["w-col"],
-    "description": "网格系统中的一行"
+    "description": "网格系统中的一行。 0.0.1 新增。"
   },
   "w-scroll": {
     "attributes": [],
-    "description": "自定义滚动。"
+    "description": "自定义滚动。 0.18.0 新增。"
   },
   "w-select": {
     "defaults": ["v-model", "options"],
     "attributes": [],
-    "description": "选择组件以从选项中选择值。"
+    "description": "选择组件以从选项中选择值。 0.3.0 新增。"
   },
   "w-spin": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "用于显示页面或部分的加载状态的微调器。"
+    "description": "用于显示页面或部分的加载状态的微调器。 0.5.0 新增。"
   },
   "w-statistic": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "统计数值"
+    "description": "统计数值。 0.20.0 新增。"
   },
   "w-switch": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "切换选择器。"
+    "description": "切换选择器。 0.4.0 新增。"
   },
   "w-table": {
     "defaults": ["col", "options"],
     "attributes": [],
-    "description": "表格显示数据行。"
+    "description": "表格显示数据行。 0.14.0 新增。"
   },
   "w-tag": {
     "attributes": [],
-    "description": "用于分类或标记的标签。"
+    "description": "用于分类或标记的标签。 0.12.0 新增。"
   },
   "w-text": {
     "attributes": [],
-    "description": "文本。"
+    "description": "文本。 0.20.0 新增。"
   },
   "w-timeline": {
     "attributes": [],
     "subtags": ["w-timeline-item"],
-    "description": "垂直显示时间轴。"
+    "description": "垂直显示时间轴。 0.19.0 新增。"
   },
   "w-timeline-item": {
     "defaults": ["timestamp"],
     "attributes": [],
-    "description": "垂直显示时间轴项目。"
+    "description": "垂直显示时间轴项目。 0.19.0 新增。"
   },
   "w-timepicker": {
     "defaults": ["v-model"],
     "attributes": [],
-    "description": "选择或输入时间。"
+    "description": "选择或输入时间。 0.20.0 新增。"
   },
   "w-tooltip": {
     "defaults": ["content"],
     "attributes": [],
-    "description": "一个简单的文本弹出提示。"
+    "description": "一个简单的文本弹出提示。 0.8.0 新增。"
   }
 }

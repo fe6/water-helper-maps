@@ -2,17 +2,23 @@
 	"w-page/value": {
 		"description": "当前页数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/prevText": {
 		"description": "上一页文案",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/nextText": {
 		"description": "下一页文案",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/size": {
 		"description": "设置大小",
@@ -22,36 +28,50 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/total": {
 		"description": "数据总数",
 		"optionType": "Number",
-		"defaultValue": "50"
+		"defaultValue": "50",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/midleSize": {
 		"description": "数据过多的时候省略号中间的个数",
 		"optionType": "Number",
-		"defaultValue": "5"
+		"defaultValue": "5",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/pageSize": {
 		"description": "每页条数",
 		"optionType": "Number",
-		"defaultValue": "10"
+		"defaultValue": "10",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/simple": {
 		"description": "当添加该属性时，显示为简单分页",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/change": {
 		"description": "状态改变触发的方法，返回 当前页数 ( currentPage )",
 		"optionType": "Function",
-		"defaultValue": "(currentPage) => {}"
+		"defaultValue": "(currentPage) => {}",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-page/showTotal": {
 		"description": "用于显示数据总量和当前数据顺序，返回 {总数,区间}({total, range})",
 		"optionType": "Function",
-		"defaultValue": "({total, range}) => {}"
+		"defaultValue": "({total, range}) => {}",
+		"version": "0.11.0",
+		"require": "false"
 	}
 }
