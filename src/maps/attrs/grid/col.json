@@ -2,32 +2,44 @@
 	"w-col/tag": {
 		"description": "row 实际渲染的标签",
 		"optionType": "String",
-		"defaultValue": "div"
+		"defaultValue": "div",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/className": {
 		"description": "自定义最外层的 class",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/span": {
 		"description": "栅格占位格数，为 0 时相当于 display: none",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/order": {
 		"description": "栅格顺序， flex 布局模式下有效",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/offset": {
 		"description": "栅格左侧的间隔格数，间隔内不可以有栅格",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/pull": {
 		"description": "栅格向左移动格数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/push": {
 		"description": "栅格向右移动格数",
@@ -37,7 +49,9 @@
 	"w-col/xs": {
 		"description": "<576px 响应式栅格，可为栅格数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/sm": {
 		"description": ">=576px 响应式栅格，可为栅格数",
@@ -47,7 +61,9 @@
 	"w-col/md": {
 		"description": ">=768px 响应式栅格，可为栅格数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/lg": {
 		"description": ">=992px 响应式栅格，可为栅格数",
@@ -57,11 +73,15 @@
 	"w-col/xl": {
 		"description": ">=1200px 响应式栅格，可为栅格数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-col/xxl": {
 		"description": ">=1600px 响应式栅格，可为栅格数",
 		"optionType": "Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

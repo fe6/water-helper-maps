@@ -8,7 +8,9 @@
       "danger"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/size": {
 		"description": "设置大小",
@@ -18,41 +20,57 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/htmlType": {
 		"description": "设置 button 原生的 type 值",
 		"optionType": "String",
-		"defaultValue": "button"
+		"defaultValue": "button",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/stop": {
-		"description": "按钮点击是否冒泡， 0.9.0 新增",
+		"description": "按钮点击是否冒泡",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.9.0",
+		"require": "false"
 	},
 	"w-button/loading": {
 		"description": "设置载入状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/ghost": {
 		"description": "幽灵属性，使按钮背景透明",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/className": {
 		"description": "自定义按钮最外层的 class",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-button/click": {
 		"description": "点击动效之后触发的点击事件，返回 {event, key}",
 		"optionType": "Function",
-		"defaultValue": "({event, key}) => {}"
+		"defaultValue": "({event, key}) => {}",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

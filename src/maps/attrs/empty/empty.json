@@ -2,11 +2,15 @@
 	"w-empty/image": {
 		"description": "设置图片",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.1.0",
+		"require": "false"
 	},
 	"w-empty/imageStyle": {
-		"description": "设置图片外层样式， 0.3.0 新增",
+		"description": "设置图片外层样式",
 		"optionType": "Object",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	}
 }

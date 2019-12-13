@@ -2,46 +2,64 @@
 	"w-checkbox/value": {
 		"description": "绑定值",
 		"optionType": "Number | String | Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/label": {
 		"description": "设置选中的值",
 		"optionType": "Number | String | Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/indeterminate": {
 		"description": "设置 indeterminate 状态，只负责样式控制",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/textColor": {
-		"description": "文字的颜色 0.11.0 新增",
+		"description": "文字的颜色",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.11.0",
+		"require": "false"
 	},
 	"w-checkbox/hoverColor": {
 		"description": "鼠标移入的颜色",
 		"optionType": "String",
-		"defaultValue": "#34abfe"
+		"defaultValue": "#34abfe",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/checkColor": {
 		"description": "选中的颜色",
 		"optionType": "String",
-		"defaultValue": "#1890ff"
+		"defaultValue": "#1890ff",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/className": {
 		"description": "自定义组件最外层的 class 名字",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox/change": {
 		"description": "状态改变触发的方法，返回 {Event对象,当前状态，选中的值，显示的值，失效状态，半选状态}({ev, status,label,value,disabled,indeterminate})",
 		"optionType": "Function",
-		"defaultValue": "({ev, status,label,value,disabled,indeterminate}) => {}"
+		"defaultValue": "({ev, status,label,value,disabled,indeterminate}) => {}",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

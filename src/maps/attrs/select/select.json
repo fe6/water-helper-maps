@@ -2,42 +2,58 @@
 	"w-select/value": {
 		"description": "绑定值",
 		"optionType": "String | Number | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/options": {
 		"description": "指定可选项， 每项具体设置参照 fieldNames 参数",
 		"optionType": "Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/fieldNames": {
 		"description": "自定义属性的字段名",
 		"optionType": "Object",
-		"defaultValue": "{ value: 'value', label: 'label', key: 'key', loading: 'loading', disabled: 'disabled' }"
+		"defaultValue": "{ value: 'value', label: 'label', key: 'key', loading: 'loading', disabled: 'disabled' }",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/search": {
 		"description": "搜索的开关",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/loading": {
 		"description": "设置载入状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/transfer": {
 		"description": "是否转移到 body 下",
 		"optionType": "Boolean",
-		"defaultValue": "true"
+		"defaultValue": "true",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/emptyText": {
 		"description": "搜索未匹配到的文案",
 		"optionType": "String",
-		"defaultValue": "未匹配到结果"
+		"defaultValue": "未匹配到结果",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/mode": {
 		"description": "选择器的模式",
@@ -47,7 +63,9 @@
       "tag"
     ],
 		"optionType": "String",
-		"defaultValue": "single"
+		"defaultValue": "single",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/size": {
 		"description": "设置大小",
@@ -57,22 +75,30 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/placeholder": {
 		"description": "输入框占位文本",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/prefix": {
 		"description": "选中的前缀",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/suffix": {
 		"description": "选中的后缀",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/placement": {
 		"description": "下拉框位置",
@@ -91,46 +117,64 @@
       "rightBottom"
     ],
 		"optionType": "String",
-		"defaultValue": "bottom"
+		"defaultValue": "bottom",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/interval": {
 		"description": "下拉框间距，单位 px",
 		"optionType": "Number",
-		"defaultValue": "0"
+		"defaultValue": "0",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/zIndex": {
 		"description": "下拉弹出的层级",
 		"optionType": "Number",
-		"defaultValue": "1"
+		"defaultValue": "1",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/getContainer": {
 		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/before": {
 		"description": "改变之前触发，返回 Promise 对象",
 		"optionType": "Function",
-		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}"
+		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/change": {
 		"description": "改变触发，返回 {Event对象,选中的值,当前数据,所有数据}({ev,value,item,options})",
 		"optionType": "Function",
-		"defaultValue": "({ev,value,item,options}) => {}"
+		"defaultValue": "({ev,value,item,options}) => {}",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/focus": {
 		"description": "获取焦点触发，返回 Event 对象 ( ev )",
 		"optionType": "Function",
-		"defaultValue": "(ev) => {}"
+		"defaultValue": "(ev) => {}",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/blur": {
 		"description": "失去焦点触发，返回 Event 对象 ( ev )",
 		"optionType": "Function",
-		"defaultValue": "(ev) => {}"
+		"defaultValue": "(ev) => {}",
+		"version": "0.3.0",
+		"require": "false"
 	},
 	"w-select/click": {
 		"description": "点击选择框触发，返回 Event 对象 ( ev )",
 		"optionType": "Function",
-		"defaultValue": "(ev) => {}"
+		"defaultValue": "(ev) => {}",
+		"version": "0.3.0",
+		"require": "false"
 	}
 }

@@ -2,32 +2,44 @@
 	"w-datepicker/value": {
 		"description": "选中的值",
 		"optionType": "Boolean, Number, String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/transfer": {
 		"description": "是否转移到 body 下",
 		"optionType": "Boolean",
-		"defaultValue": "true"
+		"defaultValue": "true",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/editable": {
 		"description": "文本框可输入",
 		"optionType": "Boolean",
-		"defaultValue": "false"
+		"defaultValue": "false",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/open": {
 		"description": "控制弹层是否展开",
 		"optionType": "Boolean",
-		"defaultValue": "false"
+		"defaultValue": "false",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/clearable": {
 		"description": "是否显示清除按钮",
 		"optionType": "Boolean",
-		"defaultValue": "true"
+		"defaultValue": "true",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/type": {
 		"description": "日历类型",
@@ -40,12 +52,16 @@
       "datetime"
     ],
 		"optionType": "String",
-		"defaultValue": "date"
+		"defaultValue": "date",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/defaultPickerValue": {
 		"description": "当 v-model ( value ) 为空时，选择器打开时默认显示的时间",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/size": {
 		"description": "设置大小",
@@ -55,22 +71,30 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "top"
+		"defaultValue": "top",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/placeholder": {
 		"description": "输入框占位文本",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/format": {
 		"description": "显示在输入框中的格式，参考 moment 的日期格式",
 		"optionType": "String",
-		"defaultValue": "YYYY-MM-DD"
+		"defaultValue": "YYYY-MM-DD",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/valueFormat": {
 		"description": "绑定值的格式，参考 moment 的日期格式",
 		"optionType": "String",
-		"defaultValue": "YYYY-MM-DD"
+		"defaultValue": "YYYY-MM-DD",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/placement": {
 		"description": "气泡框位置",
@@ -83,41 +107,57 @@
       "bottomRight"
     ],
 		"optionType": "String",
-		"defaultValue": "top"
+		"defaultValue": "top",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/interval": {
 		"description": "下拉框间距，单位 px",
 		"optionType": "Number",
-		"defaultValue": "0"
+		"defaultValue": "0",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/firstDayOfWeek": {
 		"description": "周起始日，默认： 日",
 		"optionType": "Number",
-		"defaultValue": "0"
+		"defaultValue": "0",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/pickerRender": {
 		"description": "自定义日期单元格的内容和样式",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/disabledRender": {
 		"description": "禁止选择部分日期",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-cascader/getContainer": {
 		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
 		"optionType": "Function",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/panelChange": {
 		"description": "点击面板的方法，返回 {面板类型,面板数据,当前月份,当前年份,当前年代,当前世纪}({tableType,tableOptions,nowMonth,nowYear,nowRangeYear,nowRangeAge,value})",
 		"optionType": "Function",
-		"defaultValue": "({tableType,tableOptions,nowMonth,nowYear,nowRangeYear,nowRangeAge,value}) => {}"
+		"defaultValue": "({tableType,tableOptions,nowMonth,nowYear,nowRangeYear,nowRangeAge,value}) => {}",
+		"version": "0.17.0",
+		"require": "false"
 	},
 	"w-datepicker/change": {
 		"description": "输入时触发的方法，返回 {Event对象,处理过的值,格式的值,当前的对象,当前行}({ev,trueValue,value,item,dateWeek})",
 		"optionType": "Function",
-		"defaultValue": "({ev,trueValue,value,item,dateWeek}) => {}"
+		"defaultValue": "({ev,trueValue,value,item,dateWeek}) => {}",
+		"version": "0.17.0",
+		"require": "false"
 	}
 }

@@ -2,32 +2,44 @@
 	"w-checkbox-group/value": {
 		"description": "选中的值",
 		"optionType": "Array",
-		"defaultValue": "[]"
+		"defaultValue": "[]",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/hoverColor": {
 		"description": "鼠标移入的颜色",
 		"optionType": "String",
-		"defaultValue": "#34abfe"
+		"defaultValue": "#34abfe",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/checkColor": {
 		"description": "选中的颜色",
 		"optionType": "String",
-		"defaultValue": "#1890ff"
+		"defaultValue": "#1890ff",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/checkboxClassName": {
 		"description": "checkbox 最外层的 class 名字",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/className": {
 		"description": "checkboxgroup 最外层的 class 名字",
 		"optionType": "String | Object | Array",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/options": {
 		"description": "指定可选项， 每项具体设置参照 fieldNames 参数",
@@ -37,11 +49,15 @@
 	"w-checkbox-group/fieldNames": {
 		"description": "自定义属性的字段名",
 		"optionType": "Object",
-		"defaultValue": "{ value: 'value', label: 'label', key: 'key', disabled: 'disabled' }"
+		"defaultValue": "{ value: 'value', label: 'label', key: 'key', disabled: 'disabled' }",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-checkbox-group/change": {
 		"description": "状态改变触发的方法，返回 {Event对象,当前状态，选中的值，显示的值，失效状态，半选状态}({ev, status,label,value,disabled,indeterminate})",
 		"optionType": "Function",
-		"defaultValue": "({ev, status,label,value,disabled,indeterminate}) => {}"
+		"defaultValue": "({ev, status,label,value,disabled,indeterminate}) => {}",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

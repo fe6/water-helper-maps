@@ -2,22 +2,30 @@
 	"w-link/tag": {
 		"description": "实际渲染的标签",
 		"optionType": "String",
-		"defaultValue": "a"
+		"defaultValue": "a",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/href": {
 		"description": "点击跳转的外链地址",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/to": {
 		"description": "站内跳转的地址",
 		"optionType": "Object",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/target": {
 		"description": "外链跳转的方式",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/size": {
 		"description": "设置大小",
@@ -27,16 +35,22 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/loading": {
     "description": "设置载入状态",
     "optionType": "Boolean",
-    "defaultValue": "-"
+    "defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-link/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }

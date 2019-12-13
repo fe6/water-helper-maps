@@ -2,11 +2,15 @@
 	"w-timeline-item/color": {
 		"description": "指定圆圈颜色",
 		"optionType": "String",
-		"defaultValue": "rgba(0, 0, 0, 0.25)"
+		"defaultValue": "rgba(0, 0, 0, 0.25)",
+		"version": "0.19.0",
+		"require": "false"
 	},
 	"w-timeline-item/timestamp": {
 		"description": "时间。如果没有就不显示",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.19.0",
+		"require": "false"
 	}
 }

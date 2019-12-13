@@ -2,27 +2,37 @@
 	"w-input/value": {
 		"description": "输入框中的值",
 		"optionType": "String | Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/maxLength": {
-		"description": "最大输入长度， 0.15.0 新增",
+		"description": "最大输入长度",
 		"optionType": "String | Number",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.15.0",
+		"require": "false"
 	},
 	"w-input/showWordLimit": {
-		"description": "是否显示输入字数统计， 0.15.0 新增",
+		"description": "是否显示输入字数统计",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.15.0",
+		"require": "false"
 	},
 	"w-input/placeholder": {
 		"description": "输入框占位文本",
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/type": {
 		"description": "设置 input 原生的 type 值",
 		"optionType": "String",
-		"defaultValue": "text"
+		"defaultValue": "text",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/size": {
 		"description": "设置大小",
@@ -32,31 +42,43 @@
       "不设置"
     ],
 		"optionType": "String",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/htmlType": {
 		"description": "设置原生的 type 值",
 		"optionType": "String",
-		"defaultValue": "button"
+		"defaultValue": "button",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/disabled": {
 		"description": "设置禁用状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/readonly": {
-		"description": "输入框可读状态， 0.17.0 新增",
+		"description": "输入框可读状态",
 		"optionType": "Boolean",
-		"defaultValue": "-"
+		"defaultValue": "-",
+		"version": "0.17.1",
+		"require": "false"
 	},
 	"w-input/error": {
 		"description": "当返回为 true 的时候，输入框为错误状态。该函数返回的参数(params)： Event对象(ev)， 输入的值(value)， 最大长度(maxLength)，触发的事件或阶段(eventType 0.16.0 新增)",
 		"optionType": "Function",
-		"defaultValue": "(params) => false"
+		"defaultValue": "(params) => false",
+		"version": "0.0.1",
+		"require": "false"
 	},
 	"w-input/change": {
 		"description": "输入时触发的方法，返回 {Event对象,输入的值}({ev,value})",
 		"optionType": "Function",
-		"defaultValue": "() => {}"
+		"defaultValue": "() => {}",
+		"version": "0.0.1",
+		"require": "false"
 	}
 }
