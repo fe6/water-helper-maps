@@ -1,0 +1,22 @@
+{
+  "name": "water-helper-maps",
+  "description": "水滴标签属性的辅助对照",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:iq9891/water-helper-maps.git",
+  "author": "李梦龙 <649076408@qq.com>",
+  "files": [
+    "out",
+    "src"
+  ],
+  "scripts": {
+    "compile": "sh ./scripts/build.sh",
+    "build": "yarn compile && node ./scripts/node.js",
+    "start": "sh ./scripts/build.sh -watch",
+    "prepublishOnly": "yarn build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
